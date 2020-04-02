@@ -1,0 +1,44 @@
+/*main navigation links*/
+nav ol li{
+  width: 136px;
+  height: 65px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+/*add positioning styles for the #clientNav */
+#clientNav{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 5px;
+
+}
+
+#clientNav ul, #clientNav p{
+  padding: 0;
+  margin: 0;
+}
+
+#clientNav li{
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none;
+}
+/*Change the page's minimum width and positioning context for the client navigation section*/
+body{
+  min-width: 1000px;
+  position: relative;
+}
+/*Change the main navigation to left-hand (or right-hand) positioning using float*/
+nav{
+  width: 150px;
+  float: right;
+}
+#content{
+  margin: 10px 50px;
+}
+/*Adjust the footer to correct the flow*/
+footer{
+  clear: right;
+}
