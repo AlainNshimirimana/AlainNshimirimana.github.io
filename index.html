@@ -7,6 +7,126 @@
         <link rel="stylesheet" href="_css/format.css" type="text/css"/>
         <link rel="stylesheet" href="_css/layout.css" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <style>
+            /*add a background image for the whole page and push the left and right sides in */
+body{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+  margin: 0 10px;
+}
+
+/*add a photo of myself and put a circle border around it*/
+.photo img{
+  height: 150px;
+  border: 2px solid #474745;
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*give navigationlinks their own font and background color */
+nav li{
+  margin: 20px 0;
+  padding: 0 10px;
+  padding-left: 10px;
+  display: inline;
+  font-size: 20px;
+}
+nav ul{
+  width: 700px;
+  text-align: center;
+  background-color: #474745;
+  font-family: Helvetica, serif, sans-serif;
+  font-weight: 500;
+}
+/*center the project title and alter the color of the text*/
+h1{
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/*put the assignment links in the center and change the appearance a little*/
+#links{
+  text-align: center;
+}
+#links h2{
+  color: #333;
+  font-weight: 600;
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#links ul{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*change the back background color for the all the lists and center the list that are not on the main page */
+ul li{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+ul{
+  width:300px;
+  border: 1px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DFDFD8;
+}
+
+/* change the unordered list to have circles and align them to the left side of the border. THIS IS FOR THE MAIN PAGE!!!*/
+#links ul li{
+  list-style-type: circle;
+  margin: 5px auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+/*Change the appearance of links when active, visited, hover, etc..*/
+/*unvisited links*/
+a:link, nav a:visited{
+  color: #079AC1;
+  text-decoration: none;
+}
+/*visited links*/
+a:visited{
+  color: #A02006;
+  text-decoration: line-through;
+}
+/*Focused links*/
+a:focus{
+  color: blue;
+}
+/*hovered links*/
+a:hover, nav a:hover{
+  color: #AB0F43;
+}
+/*activelinks*/
+a:active{
+  color: #0EBD66;
+}
+#guide p{
+  text-align: center;
+}
+/*footer style will go here */
+footer{
+  color: #fff;
+  font-family: Helvetica, serif, sans-serif;
+  background-color: #474745;
+}
+        </style>
     </head>
 
     <body>
