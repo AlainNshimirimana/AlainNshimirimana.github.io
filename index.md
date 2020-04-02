@@ -1,59 +1,17 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Alain Nshimirimana "Web Authoring Portfolio" </title>
         <meta charset="UTF-8"/>
         <meta name= "author" content="Alain nshimirimana" />
-        <link rel="stylesheet" href="css/format.css" type="text/css"/>
-        <link rel="stylesheet" href="css/layout.css" type="text/css"/>
+        <link rel="stylesheet" href="_css/format.css" type="text/css"/>
+        <link rel="stylesheet" href="_css/layout.css" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
-      <div id="container">
-        <header>
-          <div class="photo">
-              <img src="images/joker_shirt.jpg" alt="photo of me">
-          </div>
-        </header>
-        <h1>Alain Nshimirimana Course Portfolio</h1>
-        <main>
-          <!--Brief intro about myself-->
-          <div id="introduction">
-            <p>My name is Alain Nshimirimana. I am a 23yr old college student who's trying to persue a career as a web developer. In my spare time
-            I like to play video games, listen to music, or dance. I am also a break dancer and a hip hop dancer. Below you will find links to all of my course assignments so far.</p>
-          </div>
-          <div id="links">
-            <h2><u><i>Links to course assignments:</i></u></h2>
-            <ul>
-              <li><a href="labs/html_lab/spring.html" target="_blank">Week 1: Spring and Summer is here lab</a></li>
-              <li><a href="labs/html_linking_lab/rain.html" target="_blank">Week 2: Linking lab</a></li>
-              <li><a href="labs/css_styling_lab/css_lab_example.html" target="_blank">Week 3: CSS Styling Lab</a></li>
-              <li><a href="labs/prz_formatting/index.html" target="_blank">Week 4: PRZ Formatting</a></li>
-              <li><a href="labs/prz_css_positioning/index.html" target="_blank">Week 5: PRZ CSS Positioning</a></li>
-              <li><a href="labs/prz_css_effects/index.html" target="_blank">Week 6: PRZ CSS Effects</a></li>
-              <li><a href="reports/personal_website_design.docx">Week 6: Personal Website Design document</a></li>
-              <li><a href="reports/domain_name_report.docx">Week 6: Domain Name Report</a></li>
-              <li><a href="pwp/oswaldo_photograpy/index.html">Final: Personal Website</a></li>
-              <li><a href="pwp/oswaldo_photograpy/report/pwp_style_guide.docx">Final: PWP Style Guide</a></li>
-            </ul>
-          </div>
-          <br>
-          <div id="guide">
-            <p>This a link to the format style guide page: <a href="labs/styles_guide.html" target="_blank">Website Style Guide Document</a></p>
-            <p>This a link to the layout guide page: <a href="labs/layout_guide.html" target="_blank">Website Style Guide Document</a></p>
-          </div>
-        </main>
-        <div id="contact">
-          <h3><u><i>Contact:</i></u></h3>
-          <p> Email: <a href="mailto:alain.nshimirimana@gmail.com">Alain Nshimirimana</a></p>
-        </div>
-
-        <footer>
-          <hr>
-            <h6>&copy; Alain Nshimirimana</h6>
-        </footer>
-    </div>
-
+              <ul>
+                <li><a href="index.html">My Website</a></li>
+                </ul>
     </body>
 </html>
