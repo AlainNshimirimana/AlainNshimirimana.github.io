@@ -12,6 +12,6 @@
     <body>
               <ul>
                 <li><a href="index.html">My Website</a></li>
-                </u>
+                </ul>
     </body>
 </html>
